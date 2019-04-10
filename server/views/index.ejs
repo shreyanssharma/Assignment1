@@ -1,0 +1,179 @@
+<% include ./partials/header.ejs %>
+
+    <div class="container">
+      <div class="jumbotron">
+        
+        <% if (title == "Home") { %>
+        <center><h3>Hello! I'm Shreyans</h3></center>
+        <br><br>
+         I am a Self-energetic and aspiring software engineer and good team player with a strong ability to organize and present complex solutions clearly and accurately. 
+         <br><br>
+         <p>I am currently enrolled in a 3 year software engineering program at centennial college. I also had the oppertunity to work in one of the biggest telecommunication company in canada where i gained emense knowledge about cyber security.</p>
+         <p>I’ve always enjoyed interacting with new people and implementing different methodologies into all sorts of projects hence i aim to be a Business Analyst.</p>
+          <br><br><br>
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<a href="Assets/Images/Shreyans_Resume.pdf">
+<style>
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+</style>
+</head>
+<body>
+
+
+
+<button class="btn"><i class="fa fa-download"></i> Download My Profile</button>
+
+
+</body>
+
+
+          <% } %>
+
+        <% if (title == "About") { %>
+          <h3>Something about me,</h3>
+          My name in Shreyans Sharma, I am currently pursuing Software Engineering Technology at centennial college and will be graduating in this coming April. I’ve had the opportunity of representing my college in an artificial intelligence competition where I gained immense knowledge about machine learning and algorithms. I also had the privilege of working in the biggest tele communications company in Canada last summer where I gained knowledge about cyber security and how encrypted data is protected. I’ve always enjoyed interacting with new people and implementing different methodologies into all sorts of projects hence my interest in Business Analyst field.
+         <br><br><br>
+          <center> <img src="Assets/Images/IMG_20160418_183606.jpg" alt"My Picture" width="300"></center>
+        <% } %>
+
+
+        <% if (title == "Projects") { %>
+          <center><h3>Some of my main works</h3></center>
+         <br><br><br>
+          <div>
+            <h4>Business Systems Analyst</h4>
+            <p>Main duties consist of meeting with different teams within the Cyber Security Unit (Department I am working with) to identify the requirements for handling needs, assessments and benefit analysis to align the technology of the company with the business strategies.</p>
+              ​
+             <p> Prepare process flow diagrams, followed the Use case diagrams after the requirement gathering phase is completed.</p>
+            
+            </div>
+            <br><br><br>
+            <div>
+           
+            <h4>E-commerce Website</h4>
+            <p>Created an E-commerce website for the company.
+              Worked in under 24hrs deadlines.
+              Developed project concepts and maintain optimal workflow.
+              Completed detailed website development tasks for front end public.
+              Carried out quality assurance tests to discover errors and optimize usability.</p>
+            </div>
+            <br><br><br>
+            <div>
+           
+            <h4>Clinincal Application</h4>
+            <p>Created an end to end clinical mobile based application for alzimers patients </p>
+            <p> Created Entity-Relationship (E-R) diagrams, Workflows, Domain Class Diagrams and Used Cases for the same </p>
+            </div>    
+            <br><br><br>
+            <center><h4>Other Projects</h4></center>
+            <p>System Design and Analysis for House renting mobile Application </p>
+            <p> Created a Pizza Delivery Mobile Application using Android Studio. </p>
+            <p> Requirement Analysis and System Design for various in class Projects. </p>
+            </div>    
+
+        <% } %>        
+        
+        <% if (title == "Services") { %>
+         <center> <h3>Some of My Skills are,</h3></center>
+          
+                <ul>
+                    <li>Java</li>
+                    <li>C#</li>
+                     <li>C++</li>
+                    <li>Object Oriented Programming</li>
+                    <li>PHP</li>
+                    <li>ASP.NET</li>
+                    <li>Java Script</li>
+                    <li>SQL/PLSQL</li>
+                    <li>Unix/Linux</li>
+                </ul>
+        
+        <% } %>
+
+        <% if (title == "Contact") { %>
+          
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {font-family: Arial, Helvetica, sans-serif;}
+          * {box-sizing: border-box;}
+          
+          input[type=text], select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+          }
+          
+          input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+          
+          input[type=submit]:hover {
+            background-color: #45a049;
+          }
+          
+          .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h3>Contact Form</h3>
+          
+          <div class="container">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="subject">Email ID</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your email ID..">
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          
+          </body>
+        
+         <% } %>
+ 
+
+
+        
+         
+
+
+        
+
+      
+<% include ./partials/footer.ejs %>
